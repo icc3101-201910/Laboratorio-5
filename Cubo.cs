@@ -12,13 +12,13 @@ namespace laboratorio5
 
             // Ahora hago esta comparación porque el cubo de un número negativo es
             // negativo, y no quiero hacer un número máx pequeo que el int más chico...
-            if (numero > 0) {
+            if (numero >= 0) {
                 numero = Math.Min(MAX, numero);
             } else {
                 numero = Math.Max(-MAX, numero);
             }
 
-            return MAX * MAX * MAX;
+            return numero * numero * numero;
         }
     }
 }

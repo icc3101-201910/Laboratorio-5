@@ -17,7 +17,7 @@ namespace laboratorio5
 
             numero = Math.Min(MAX, numero);
 
-            return MAX * MAX;
+            return numero * numero;
         }
     }
 }
