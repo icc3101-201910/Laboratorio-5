@@ -24,6 +24,7 @@ namespace laboratorio5
         public void Calcular()
         {
             var calculadoraAlAzar = calculadoras[random.Next(calculadoras.Count)];
+            Console.WriteLine($"{calculadoraAlAzar}({numero})");
             numero = calculadoraAlAzar.Calcular(numero);
         }
     }

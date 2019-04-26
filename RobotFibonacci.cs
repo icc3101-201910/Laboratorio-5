@@ -18,7 +18,7 @@ namespace laboratorio5
         public int Calcular(int numero)
         {
             numero = Math.Max(0, numero); // Para evitar trabajar con números negativos
-            numero = Math.Min(numero, 46); // Para evitar trabajar con números tan grandes
+            numero = Math.Min(numero, 10); // Para evitar trabajar con números tan grandes
             return CalcularFibonacci(numero);
         }
     }
