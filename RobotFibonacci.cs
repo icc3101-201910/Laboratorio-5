@@ -1,7 +1,7 @@
 ﻿using System;
 namespace laboratorio5
 {
-    public class RobotFibonacci
+    public class RobotFibonacci : ICalcular
     {
         private int CalcularFibonacci(int numero) {
             if (numero == 0)

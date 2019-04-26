@@ -1,7 +1,7 @@
 ﻿using System;
 namespace laboratorio5
 {
-    public class Cubo
+    public class Cubo : ICalcular
     {
         public int Calcular(int numero)
         {

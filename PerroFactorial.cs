@@ -1,7 +1,7 @@
 ﻿using System;
 namespace laboratorio5
 {
-    public class PerroFactorial
+    public class PerroFactorial : ICalcular
     {
         private int CalcularFactorial(int numero)
         {
