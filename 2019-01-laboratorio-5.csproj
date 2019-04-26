@@ -36,6 +36,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ICalcular.cs" />
     <Compile Include="Calculadora.cs" />
+    <Compile Include="PersonaQueSuma5.cs" />
+    <Compile Include="RobotFibonacci.cs" />
+    <Compile Include="PerroFactorial.cs" />
+    <Compile Include="Cubo.cs" />
+    <Compile Include="Cuadrado.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

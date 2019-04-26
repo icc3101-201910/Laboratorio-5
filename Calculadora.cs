@@ -5,7 +5,7 @@ namespace laboratorio5
 {
     public class Calculadora
     {
-        Random random ;
+        Random random;
         private int numero;
         public List<ICalcular> calculadoras;
 
