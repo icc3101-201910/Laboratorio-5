@@ -17,5 +17,10 @@ namespace laboratorio5
             numero = Math.Min(numero, 7); // Para evitar trabajar con números tan grandes
             return CalcularFactorial(numero);
         }
+
+        public string GetNombre()
+        {
+            return "Obtener factorial";
+        }
     }
 }

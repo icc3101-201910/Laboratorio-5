@@ -14,5 +14,10 @@ namespace laboratorio5
 
             return numero + 5;
         }
+
+        public string GetNombre()
+        {
+            return "Sumar 5";
+        }
     }
 }

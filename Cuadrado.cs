@@ -19,5 +19,10 @@ namespace laboratorio5
 
             return numero * numero;
         }
+
+        public string GetNombre()
+        {
+            return "Elevar al cuadrado";
+        }
     }
 }

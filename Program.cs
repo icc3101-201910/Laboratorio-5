@@ -18,10 +18,21 @@ namespace laboratorio5
             miCalculadora.calculadoras.Add(new Cubo());
             miCalculadora.calculadoras.Add(new Cuadrado());
 
-            Console.WriteLine("Ingresa cuantos calculos quieres que tu calculadora realice:");
-            int calculos = int.Parse(Console.ReadLine());
-            for (int i = 0; i < calculos; i++) {
-                miCalculadora.Calcular();
+
+            while(true)
+            {
+                Console.WriteLine("Elige una operación (ingresa -1 para finalizar):");
+                for (int i = 0; i < miCalculadora.calculadoras.Count; i++) {
+                    Console.WriteLine($"[{i}] {miCalculadora.calculadoras[i].GetNombre()}");
+                }
+
+                string opcion = Console.ReadLine();
+                if (opcion == "-1") {
+                    break;
+                }
+
+                miCalculadora.Calcular(int.Parse(opcion));
+                Console.WriteLine($"Resultado parcial: {miCalculadora.GetNumero()}");
             }
 
             Console.WriteLine($"Resultado final: {miCalculadora.GetNumero()}");

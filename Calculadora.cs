@@ -23,8 +23,13 @@ namespace laboratorio5
 
         public void Calcular()
         {
-            var calculadoraAlAzar = calculadoras[random.Next(calculadoras.Count)];
-            numero = calculadoraAlAzar.Calcular(numero);
+            Calcular(random.Next(calculadoras.Count));
+        }
+
+        public void Calcular(int indiceCalculadora)
+        {
+            var calculadora = calculadoras[indiceCalculadora];
+            numero = calculadora.Calcular(numero);
         }
     }
 }

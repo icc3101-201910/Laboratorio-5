@@ -21,5 +21,10 @@ namespace laboratorio5
             numero = Math.Min(numero, 10); // Para evitar trabajar con números tan grandes
             return CalcularFibonacci(numero);
         }
+
+        public string GetNombre()
+        {
+            return "Calcular Fibonacci";
+        }
     }
 }

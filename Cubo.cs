@@ -20,5 +20,10 @@ namespace laboratorio5
 
             return numero * numero * numero;
         }
+
+        public string GetNombre()
+        {
+            return "Elevar al cubo";
+        }
     }
 }
